@@ -1,16 +1,31 @@
-
-
+import Commonbutton from '../../Common/Commonbutton'
+import './banner.css'
 const Banner = () => {
   return (
     <>
-      <section className="banner mt-[31px]">
+      <section className="banner bg-[url('images/bannerBg.png')]">
         <div className="container">
-            <h2 className="text-[#17C2EC] font-Monserit font-bold text-[14px] lg:text-[18px] mb-[40px]">Get Vaccinated. Boost your Immune System</h2>
-            <h2 className="w-[300px] lg:w-[414px] text-[20px] lg:text-[36px] font-extrabold font-Monserit text-[#17C2EC]">COVID-19 Vaccination
-Got Easier With,
-Vaccination.ng</h2>
-            <p className="text-white text-[12px] lg:text-[20px] font-bold font-Monserit mt-[40px] w-full lg:w-[504px]">Vaccination.ng will help you find the nearest
-            centre for vaccination, in all 36 states in Nigeria.</p>
+            <div className="banner_row p-2 lg:pr-5">
+                <div className="banner_text p-2 lg:pr-5 ">
+                <h2 className="">Get Vaccinated. Boost your Immune System</h2>
+                <h1>COVID-19 Vaccination
+                Got Easier With, <span >Vaccination.ng</span>
+                  </h1>
+                <p>Vaccination.ng will help you find the nearest
+                centre for vaccination, in all 36 states in Nigeria.</p>
+                <div className="button flex gap-5">
+                  <Commonbutton CommonbuttonText={'Get Vaccine'}/>
+                  <Commonbutton CommonbuttonText={'Help Centre'}/>
+                </div>
+                </div>
+                <div className="banner_img pl-5">
+                  <img src="images/madicin.png" alt="vaccin" className='mr-5 ' />
+                  <div className="Animated_img ">
+                    <img className='animation_1' src="images\Group 17 (1).png" alt="gp" />
+                    <img className='animation_2' src="images\Group 18.png" alt="gp" />
+                  </div>
+                </div>
+            </div>
         </div>
       </section>
     </>

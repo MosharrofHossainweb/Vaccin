@@ -15,7 +15,13 @@ export default {
     },
     container: {
       center: true,
-      padding: '2rem',
+      padding:{
+        DEFAULT: '35px',
+        sm: '0px',
+        lg: '0px',
+        xl: '0px',
+        '2xl': '0px',
+      }
     },
   },
   plugins: [],

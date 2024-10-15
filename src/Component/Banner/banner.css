@@ -1,0 +1,41 @@
+.banner{
+    @apply pt-[127px] md:pt-[87px] lg:pt-[211px] bg-no-repeat bg-cover bg-center
+}
+.banner_row{
+    @apply flex justify-between flex-wrap gap-[50px] md:gap-0
+}
+.banner_text h2{
+    @apply text-[#17C2EC] font-Monserit font-bold text-[12px] md:text-[20px] lg:text-2xl mb-[40px]
+}
+.banner_text h1{
+    @apply text-2xl leading-snug md:text-[36px] lg:text-[48px]  font-extrabold text-white font-Monserit mt-5 md:my-[40px] lg:mt-10 lg:mb-[50px] w-[276px] md:w-[414px] lg:w-[551px]
+}
+.banner_text h1 span{
+    @apply text-Brancolor block
+}
+.banner_text p{
+    @apply text-white text-[14px] md:text-[20px] lg:text-[24px] pt-5 pb-10 md:py-10 lg:py-[50px] font-bold font-Monserit mt-[40px] w-[271px] md:w-[502px] lg:w-[603px]
+}
+.banner_img{
+    @apply relative
+}
+
+.banner_img .animation_1{
+    @apply absolute top-[70%] left-[7%] translate-y-[40%] ;
+    animation: bannerAnimation 5s linear infinite;
+}
+.banner_img .animation_2{
+    @apply absolute top-[63%] right-[-5%] translate-y-[50%] ;
+    animation: bannerAnimation  5s linear infinite;
+}
+@keyframes bannerAnimation{
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: 20%;
+    }
+    100%{
+        top: 25%;
+    }
+}

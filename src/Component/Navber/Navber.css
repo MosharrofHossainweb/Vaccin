@@ -1,0 +1,24 @@
+.manu_row{
+    @apply flex justify-between items-center
+}
+.manu_bar{
+    @apply flex justify-center items-center gap-[180px] 
+}
+.manu_logo img{
+    @apply w-[200px] lg:w-[281px]
+}
+.navber{
+    @apply absolute
+}
+.manu{
+    @apply hidden lg:block
+}
+.manu_bar ul {
+    @apply flex gap-[26px]
+}
+.manu_bar ul li a{
+    @apply font-Monserit text-[#FFFFFF] text-[24px] font-medium hover:font-bold
+}
+.check{
+    @apply text-[#17C2EC] text-[24px] font-Monserit font-semibold bg-[#C4C4C41A] px-[20px] py-[26px] shadow-[-2px_8px_37px_0px_rgba(0,_0,_0,_0.1)] rounded-[20px] hover:bg-blue-200
+}
