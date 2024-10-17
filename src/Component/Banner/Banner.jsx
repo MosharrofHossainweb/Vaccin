@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Commonbutton from '../../Common/Commonbutton'
 import './banner.css'
 const Banner = () => {
@@ -25,6 +26,36 @@ const Banner = () => {
                     <img className='animation_2' src="images\Group 18.png" alt="gp" />
                   </div>
                 </div>
+            </div>
+            <div className="clock_part flex items-center gap-2 md:gap-[20px] lg:ml-[70px]  w-[260px] lg:w-[400px] text-[14px] font-bold md:text-[20px]; ">
+              <img src="images\Group 5.png" alt="clock" />
+               <h2 className='text-[#ffffff] font-Monserit font-bold text-[14px]        lg:text-[24px] '>Schedule your Vaccination</h2>
+            </div>
+            <div className="submit m-2 p-3">
+              <div className="submit_row ">
+                <div className="location flex gap-5">
+                  <img src="images/loca.png" className='w-[50px] h-[50px]' alt="location" />
+                  <div className="loc_text">
+                    <h2 className='l'>Location</h2>
+                    <h3>Ikeja Lagos, Nigeria</h3>
+                  </div>
+                </div>
+                <div className="location flex gap-5">
+                  <img src="images/calendar.png" className='w-[50px] h-[50px]' alt="location" />
+                  <div className="loc_text">
+                    <h2 className='l'>Date</h2>
+                    <h3>29 February, 2022</h3>
+                  </div>
+                </div>
+                <div className="location flex gap-5">
+                  <img src="images/shield.png" className='w-[50px] h-[50px]' alt="location" />
+                  <div className="loc_text">
+                    <h2 className='l'>Vaccine Type</h2>
+                    <h3>Mordena</h3>
+                  </div>
+                </div>
+                  <Link className='sub' to={'#'}>Submit</Link>
+              </div>
             </div>
         </div>
       </section>

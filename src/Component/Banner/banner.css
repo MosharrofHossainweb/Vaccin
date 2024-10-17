@@ -1,41 +1,53 @@
-.banner{
-    @apply pt-[127px] md:pt-[87px] lg:pt-[211px] bg-no-repeat bg-cover bg-center
+.banner {
+    @apply pt-[127px] md:pt-[87px] lg:pt-[211px] bg-no-repeat bg-cover bg-center;
 }
-.banner_row{
-    @apply flex justify-between flex-wrap gap-[50px] md:gap-0
+.banner_row {
+    @apply flex justify-between flex-wrap gap-[50px] md:gap-0;
 }
-.banner_text h2{
-    @apply text-[#17C2EC] font-Monserit font-bold text-[12px] md:text-[20px] lg:text-2xl mb-[40px]
+.banner_text h2 {
+    @apply text-[#17C2EC] font-Monserit font-bold text-[12px] md:text-[20px] lg:text-2xl mb-[40px];
 }
-.banner_text h1{
-    @apply text-2xl leading-snug md:text-[36px] lg:text-[48px]  font-extrabold text-white font-Monserit mt-5 md:my-[40px] lg:mt-10 lg:mb-[50px] w-[276px] md:w-[414px] lg:w-[551px]
+.banner_text h1 {
+    @apply text-2xl leading-snug md:text-[36px] lg:text-[48px] font-extrabold text-white font-Monserit mt-5 md:my-[40px] lg:mt-10 lg:mb-[50px] w-[276px] md:w-[414px] lg:w-[551px];
 }
-.banner_text h1 span{
-    @apply text-Brancolor block
+.banner_text h1 span {
+    @apply text-Brancolor block;
 }
-.banner_text p{
-    @apply text-white text-[14px] md:text-[20px] lg:text-[24px] pt-5 pb-10 md:py-10 lg:py-[50px] font-bold font-Monserit mt-[40px] w-[271px] md:w-[502px] lg:w-[603px]
+.banner_text p {
+    @apply text-white text-[14px] md:text-[20px] lg:text-[24px] pt-5 pb-10 md:py-10 lg:py-[50px] font-bold font-Monserit mt-[40px] w-[271px] md:w-[502px] lg:w-[603px];
 }
-.banner_img{
-    @apply relative
+.banner_img {
+    @apply relative;
 }
-
-.banner_img .animation_1{
-    @apply absolute top-[70%] left-[7%] translate-y-[40%] ;
+.banner_img .animation_1 {
+    @apply absolute top-[70%] left-[7%] translate-y-[40%];
     animation: bannerAnimation 5s linear infinite;
 }
-.banner_img .animation_2{
-    @apply absolute top-[63%] right-[-5%] translate-y-[50%] ;
-    animation: bannerAnimation  5s linear infinite;
+.banner_img .animation_2 {
+    @apply absolute top-[63%] right-[-5%] translate-y-[50%];
+    animation: bannerAnimation 5s linear infinite;
 }
-@keyframes bannerAnimation{
-    0%{
+@keyframes bannerAnimation {
+    0% {
         top: 10%;
     }
-    50%{
+    50% {
         top: 20%;
     }
-    100%{
+    100% {
         top: 25%;
     }
 }
+.loc_text h2{
+    @apply font-Monserit font-semibold text-[14px] md:text-[20px] lg:text-[24px] text-[rgb(201,148,148)];
+}
+.loc_text h3{
+    @apply font-Monserit font-semibold text-[14px] md:text-[20px] lg:text-[24px] text-[#ffffff];
+}
+.sub {
+    @apply lg:w-[142px] w-[150px] h-[60px] lg:h-[69px] md:w-[253px] md:h-[64px] bg-Brancolor rounded-[20px] flex justify-center items-center text-[#ffff] text-[14px] md:text-[20px] lg:text-[24px] font-bold hover:bg-transparent border-[1px] border-[solid] ;
+}
+.submit_row{
+    @apply flex flex-wrap gap-5 md:gap-[30px] p-3 md:py-[50px] md:px-[50px] lg:gap-[130px] md:w-[670px] w-[300px] lg:w-[1500px] bg-[#422b5b] lg:h-[160px] items-center rounded-[10px] lg:pl-[39px]  mt-[31px] md:mt-[50px] lg:mt-[10px];
+}
+
