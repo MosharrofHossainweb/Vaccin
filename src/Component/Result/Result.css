@@ -1,23 +1,82 @@
 .main_result{
-@apply bg-[#C4C4C41A]
+@apply bg-[rgb(196,196,196,10)] lg:w-[1500px] md:w-[640px] w-[305px] sm:w-[650px]
+lg:ml-[30px] md:ml-[30px] ml-[13px]
+lg:mb-[90px] md:mb-[50px] mb-[30px]
 }
 .main_result h2{
     @apply lg:text-[24px] md:text-[20px] text-[10px] text-white font-bold font-Monserit lg:pl-[93px] md:pl-[90px] pl-[30px]
-    bg-[#3d3a3a] pb-[36px] pt-[36px]
+    bg-[rgba(196,196,196,0.5)] pb-[36px] pt-[36px]
+    lg:w-[1500px] md:w-[640px] w-[305px]
 }
 .inputs_box{
-    @apply flex flex-wrap lg:gap-[7.5rem] pl-[110px]
+    @apply flex flex-wrap lg:gap-[7.5rem] md:gap-5 gap-5 sm:w-[650px] lg:w-[1500px] md:w-[640px] w-[305px] md:pl-[50px] pl-[15px]
 }
 .inputs_box input{
-    @apply bg-transparent lg:w-[406px] lg:h-[69px] md:w-[447px] w-full rounded-[20px] border-[3px]  border-[#c4c4c4] h-[50px] md:h-[69px] pl-[24px]
+    @apply bg-transparent lg:w-[406px] lg:h-[69px] md:w-[447px] w-[280px] rounded-[20px] border-[3px]  border-[#c4c4c4] h-[50px] md:h-[69px] pl-[24px] text-[14px] md:text-[20px] lg:text-[24px] text-[rgb(255,255,255,.50)]
 }
 .check_b{
     @apply lg:w-[142px] w-[150px] h-[60px] lg:h-[69px] md:w-[253px] md:h-[64px] bg-Brancolor rounded-[20px] flex justify-center items-center text-[#ffff] text-[14px] md:text-[20px] lg:text-[24px] font-bold hover:bg-transparent border-[1px] border-[solid] ; 
 }
 .resultCollect{
-    @apply bg-[#3d3a3a] flex  gap-[20px] items-center lg:pt-[32px] lg:pb-[32px] md:pt-[40px] md:pb-[45px] pt-[21px] pb-[21px] lg:w-[1534px];
+    @apply bg-[#3d3a3a] flex  gap-[20px] items-center lg:pt-[32px] lg:pb-[32px] md:pt-[40px] md:pb-[45px] pt-[21px] pb-[21px] lg:w-[1500px]  md:w-[640px] w-[305px];
 }
 .main_result h3{
-    @apply lg:pt-[55px] bg-[#3d3a3a] text-center pb-[55px] 
+    @apply lg:pt-[55px] bg-[rgb(196,196,196,0.1)] text-center pb-[21px] 
     lg:text-[24px] md:text-[20px] text-[10px] text-[#17C2EC] font-bold font-Monserit
+    lg:w-[1500px] md:w-[640px] w-[305px] md:pl-[45px] pl-[35px] md:pr-[30px]
 }
+/* =============== why part css=================== */
+.why_head h2{
+    @apply font-Monserit font-bold text-white lg:text-[49px] md:text-[36px] text-[24px]
+}
+.why_head p{
+    @apply font-Monserit font-normal text-[rgb(255,255,255,.5)] lg:text-[19px] md:text-[19px] text-[14px]
+    lg:w-[537px] md:w-[536px] w-[300px]
+}
+.why_head{
+    @apply flex flex-wrap justify-between mb-[30px] lg:mb-[50px] md:mb-[50px]
+}
+.protect1 h2{
+   @apply text-[#17C2EC] lg:text-[24px] md:text-[24px] text-[14px] lg:w-[288px] md:w-[288px] w-[170px] lg:pt-[39px] md:pt-[39px] pt-[20px]
+   lg:pb-[39px] md:pb-[39px] pb-[20px] font-Monserit font-bold
+}
+.protect1 p{
+    @apply text-white lg:text-[21px] md:text-[21px] text-[12px] w-[235px] lg:w-[352px] md:w-[352px] 
+    lg:pb-[39px] md:pb-[39px] pb-[20px]
+}
+.protect1 h3{
+    @apply text-[#17C2EC] font-Monserit font-bold lg:text-[18px] md:text-[18px] text-[14px]
+    lg:pb-[30px] md:pb-[30px] pb-[20px]
+}
+.protect1{
+    @apply bg-[#C4C4C433] lg:px-[30px] lg:py-[30px] md:px-[30px] md:py-[30px] px-3 py-5 lg:w-[450px] lg:h-[550px] lg:rounded-b-[50px] md:rounded-b-[50px] rounded-b-[20px] lg:rounded-tl-[50px] md:rounded-tl-[50px] rounded-tl-[20px]
+    lg:rounded-tr-[150px] md:rounded-tr-[150px] rounded-tr-[80px]
+}
+.protect2 h3{
+    @apply text-[#17C2EC] font-Monserit font-bold lg:text-[18px] md:text-[18px] text-[14px]
+    lg:pb-[30px] md:pb-[30px] pb-[20px]
+}
+.protect2 h2{
+    @apply text-[#fff] lg:text-[24px] md:text-[24px] text-[14px] lg:w-[288px] md:w-[288px] w-[170px] lg:pt-[39px] md:pt-[39px] pt-[20px]
+    lg:pb-[39px] md:pb-[39px] pb-[20px] font-Monserit font-bold
+ }
+ .protect2{
+    @apply bg-[#C4C4C433] lg:px-[30px] lg:py-[30px] md:px-[30px] md:py-[30px] px-3 py-5 lg:w-[350px] lg:h-[350px] lg:rounded-b-[50px] md:rounded-b-[50px] rounded-b-[20px] lg:rounded-t-[50px] md:rounded-t-[50px] rounded-t-[20px] border-2 border-s
+    
+}
+.protect2 h3{
+    @apply text-[#17C2EC] font-Monserit font-bold lg:text-[18px] md:text-[18px] text-[14px]
+    lg:pb-[30px] md:pb-[30px] pb-[20px]
+}
+.protect2 h2{
+    @apply text-[#fff] lg:text-[24px] md:text-[24px] text-[14px] lg:w-[288px] md:w-[288px] w-[170px] lg:pt-[39px] md:pt-[39px] pt-[20px]
+    lg:pb-[39px] md:pb-[39px] pb-[20px] font-Monserit font-bold
+ }
+ .protect2{
+    @apply bg-[#C4C4C433] lg:px-[30px] lg:py-[30px] md:px-[30px] md:py-[30px] px-3 py-5 lg:w-[350px] lg:h-[350px] lg:rounded-b-[50px] md:rounded-b-[50px] rounded-b-[20px] lg:rounded-t-[50px] md:rounded-t-[50px] rounded-t-[20px] border-2 border-s
+    
+}
+.why_protec{
+    @apply flex flex-wrap lg:gap-[100px] md:gap-[60px] gap-[50px]
+}
+/* =============== why part css=================== */

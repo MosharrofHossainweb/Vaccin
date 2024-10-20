@@ -1,0 +1,28 @@
+.Feedback_info h2{
+    @apply text-Brancolor font-Monserit font-bold lg:text-[24px] md:text-[20px] text-[14px] text-center  lg:mb-[20px]
+    md:pt-[45px] md:mb-[20px]  pt-[30px] mb-[20px] 
+}
+.Feedback_info h3{
+    @apply text-[#000000] font-Monserit font-extrabold lg:text-[48px] md:text-[36px] text-[24px] text-center  lg:mb-[40px] md:mb-[40px] mb-[10px] 
+}
+.Feedback_info p{
+    @apply text-[#00000080] font-Monserit font-bold lg:text-[24px] md:text-[20px] text-[14px] text-center  lg:mb-[20px] m-0 m-auto
+    md:pt-[45px] md:mb-[20px]  pt-[30px] mb-[20px] lg:w-[953px] md:w-[580px] w-[280px]
+}
+/* =================Card Part============= */
+.Single_card{
+    @apply lg:w-[400px] lg:h-[250px] md:w-[400px] md:h-[250px] w-[300px] h-[190px] bg-[#C4C4C480] lg:px-[20px] lg:py-[25px]
+    md:px-[20px] md:py-[25px] p-[10px]
+}
+.card_name h2{
+    @apply text-[14px] md:text-[20px] lg:text-[24px] 
+}
+.Single_card p{
+    @apply lg:w-[333px] md:w-[333px] w-[253px] lg:text-[18px] md:text-[18px] text-[14px]
+}
+.card_img .im2{
+    @apply lg:w-[220px] lg:h-[70px]
+    md:w-[180px] md:h-[50px]
+    w-[150px] h-[40px]
+}
+/* =================Card Part============= */

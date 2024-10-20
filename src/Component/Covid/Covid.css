@@ -1,0 +1,12 @@
+.Covid_Pre h2{
+    @apply text-[#fff] font-Monserit font-bold lg:text-[24px] md:text-[20px] text-[14px] text-center lg:pt-[67px] lg:mb-[20px]
+    md:pt-[25px] md:mb-[10px]  pt-[20px] mb-[10px] 
+}
+.Covid_Pre h3{
+    @apply text-[#fff] font-Monserit font-extrabold lg:text-[48px] md:text-[36px] text-[24px] text-center  lg:mb-[40px]
+    md:pt-[25px] md:mb-[10px]  pt-[20px] mb-[10px] 
+}
+.Covid_Pre p{
+    @apply text-[#fff] font-Monserit font-normal lg:text-[24px] md:text-[18px] text-[14px] text-center  lg:mb-[40px]
+    md:pt-[25px] md:mb-[10px]  pt-[20px] mb-[10px] 
+}

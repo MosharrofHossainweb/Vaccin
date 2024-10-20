@@ -11,11 +11,11 @@
     @apply w-[72px] h-[16px] lg:w-[266px] lg:h-[117px] md:w-[148px] md:h-[60px];
  }
  .brand_row {
-    @apply flex gap-[12px] h-[39px] md:gap-[24px] lg:gap-[48px]
+    @apply flex gap-[12px] h-[39px] md:gap-[24px] lg:justify-between
     sm:gap-[90px] w-[305px] 
     md:w-[768px] md:h-[80px] 
     sm:w-[670px] sm:h-[80px] 
-    lg:w-[1440px] lg:h-[150px] 
+    lg:w-[1500px] lg:h-[150px] 
     lg:pl-[60px] md:pl-[38px] pl-[14px]
     mt-[41px];
  }
