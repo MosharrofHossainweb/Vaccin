@@ -48,8 +48,11 @@ lg:mb-[90px] md:mb-[50px] mb-[30px]
     @apply text-[#17C2EC] font-Monserit font-bold lg:text-[18px] md:text-[18px] text-[14px]
     lg:pb-[30px] md:pb-[30px] pb-[20px]
 }
+.arrow{
+   @apply text-[#17C2EC] font-Monserit font-bold 
+}
 .protect1{
-    @apply bg-[#C4C4C433] lg:px-[30px] lg:py-[30px] md:px-[30px] md:py-[30px] px-3 py-5 lg:w-[450px] lg:h-[550px] lg:rounded-b-[50px] md:rounded-b-[50px] rounded-b-[20px] lg:rounded-tl-[50px] md:rounded-tl-[50px] rounded-tl-[20px]
+    @apply bg-[#C4C4C433] lg:px-[30px] lg:py-[30px] md:px-[30px] md:py-[30px] px-3 py-5 lg:w-[450px]  lg:rounded-b-[50px] md:rounded-b-[50px] rounded-b-[20px] lg:rounded-tl-[50px] md:rounded-tl-[50px] rounded-tl-[20px]
     lg:rounded-tr-[150px] md:rounded-tr-[150px] rounded-tr-[80px]
 }
 .protect2 h3{

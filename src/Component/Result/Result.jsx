@@ -1,8 +1,17 @@
 import './Result.css'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from "react-icons/fa";
+import { useState } from 'react';
 
 const Result = () => {
+
+const [show,setShow] = useState(false)
+// ----------funtionality------------
+
+const handelShow1=()=>{
+  setShow(!show)
+}
+
   return (
     <>
       <section className='result bg-[url("images/bg.png")] pt-[62px] pb-[60px] '>
@@ -40,8 +49,20 @@ In molestie condimentum malesuada non.</p>
                       faucibus. 
                       Sit turpis fringilla ipsum pretium,
                       dictum. Dolor eget vel nulla lorem ac.</p>
-                  <h3>Read More<FaArrowRight />
-                  </h3>
+                    <div className="arrow flex h-7">
+                  <h3 onClick={handelShow1} >Read More 
+                      </h3>
+                    <  FaArrowRight  className='arrow mt-1.5 pl-1' />
+                      </div>  
+                  {
+                          show&&
+                          
+                        <p className='text-blue-800 pl-9 py-3 rounded-md bg-[#C4C4C433] '>
+                          Lorem ipsum, dolor 
+                          sit amet consectetur
+                        sit amet consectetur adipisicing 
+                        elit. Esse, at!</p>
+                        }
               </div>
 
               <div className="Protec_part2  lg:mt-[200px] md:mt-[30px] mt-[20px] flex flex-wrap lg:gap-[70px] md:gap-[50px] gap-[30px]">
@@ -50,15 +71,22 @@ In molestie condimentum malesuada non.</p>
                       <h2>Minimize the spread
                       of the Virus</h2>
 
-                        <h3>Read More<FaArrowRight />
-                        </h3>
+                      <div className="arrow flex ">
+                        <h3>Read More 
+                                      </h3>
+                    <  FaArrowRight  className='arrow mt-1.5 pl-1' />
+                      </div>
+                        
                     </div>
                     <div className="protect2 hover:scale-[1.1] ">
                       <img src="images\Group 33.png" alt="" />
                       <h2>Protect yourself</h2>
 
-                        <h3>Read More<FaArrowRight />
-                        </h3>
+                      <div className="arrow flex ">
+                        <h3>Read More 
+                                      </h3>
+                    <  FaArrowRight  className='arrow mt-1.5 pl-1' />
+                      </div>
                     </div>
               </div>
             </div>

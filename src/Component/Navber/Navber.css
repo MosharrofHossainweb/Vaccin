@@ -17,7 +17,7 @@
     @apply flex gap-[26px]
 }
 .manu_bar ul li a{
-    @apply font-Monserit text-[#FFFFFF] text-[24px] font-medium hover:font-bold
+    @apply font-Monserit text-white text-[24px] font-medium hover:text-[rgb(255,255,255,0.5)]
 }
 .check{
     @apply text-[#17C2EC] text-[24px] font-Monserit font-semibold bg-[#C4C4C41A] w-[200px] h-[69px] flex justify-center items-center shadow-[-2px_8px_37px_0px_rgba(0,_0,_0,_0.1)] rounded-[20px] hover:bg-blue-200
